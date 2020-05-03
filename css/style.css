@@ -1,0 +1,31 @@
+body {
+  background-color:grey;
+}
+.counter {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.row{
+  text-align:center;
+  
+}
+#choices{
+  display:flex;
+  justify-content:space-evenly;
+  
+}
+#pic {
+  width:500px;
+  border-radius: 10px;
+}
+
+.counter, button { 
+  color: red;
+  background-color: black;
+  border: solid red;
+}
+#button {
+  text-align:center;
+  
+}

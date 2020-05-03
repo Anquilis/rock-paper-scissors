@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPS Game</title>
+    <!-- Link CSS here -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- HTML/CSS options: In the div below. 
+        1. In the header tag, change a title.
+        2. In a paragraph tag, add instructions on how to play the game.
+        3. Change the RPS image.
+        4. Style your page with colors, fonts, etc.
+     -->
+
+    <div class="row">
+      <h1>Rock Paper Scissors</h1>
+      <img id = "pic" src="https://cdn.glitch.com/d7a7648c-a357-42c0-ba51-4958eb8e2f8d%2FHeader_Saw.jpg?v=1582760028597?v=1582759871147">
+      <h3>Choose your fate.</h3>
+      <h5> Like your life DEPENDS on it</h5>
+        
+      
+      <div>
+        <input id="input" />
+        <button id="shoot">Shoot!</button>
+      </div>
+      <p id="error">
+      </p>
+      <div class="counter">
+        <p>Wins: <span id="winCounter">0</span></p>
+        <p>Losses: <span id="loseCounter">0</span></p>
+      </div>
+      <div id="choices" class="row">
+        <div>
+          <h4>User Choice</h4>
+          <p id="userChoice"></p>
+        </div>
+        <div>
+          <h4>Computer Choice</h4>
+          <p id="computerChoice"></p>
+        </div>
+      </div>
+    <div id="result"></div>
+    </div>
+    <!-- Link JQuery here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Link script.js here -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
